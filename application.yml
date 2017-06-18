@@ -1,0 +1,40 @@
+
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+      
+---
+spring:
+    profiles: localhost
+    
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+name: liucan
+
+---
+spring:
+    profiles: test
+    
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+name: sbyjc

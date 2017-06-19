@@ -16,7 +16,7 @@ eureka:
   instance:
     preferIpAddress: true
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: false
     healthcheck:
       enabled: true

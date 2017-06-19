@@ -22,6 +22,8 @@ eureka:
       enabled: true
     serviceUrl:
       defaultZone: http://localhost:8762/eureka/
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
       
 uname: liucan
 

@@ -8,6 +8,7 @@ spring:
       charset: UTF-8
       force: true
       
+uname: zyd
 ---
 spring:
     profiles: localhost

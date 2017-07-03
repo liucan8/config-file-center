@@ -1,1 +1,9 @@
+---
+spring:
+  profiles: test
 testName: 123
+
+---
+spring:
+  profiles: localhost
+testName: 98721

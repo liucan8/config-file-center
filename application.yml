@@ -14,9 +14,9 @@ uname:
 ---
 spring:
   profiles: localhost
-url: http://baidu.com
+url: http://www.QQ.com
 
 ---
 spring:
   profiles: test
-url: http:sina.com
+url: http://www.sina.com

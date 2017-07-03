@@ -10,3 +10,13 @@ spring:
       
 uname: 
   sp: zyd
+  
+---
+spring:
+  profiles: localhost
+url: http://baidu.com
+
+---
+spring:
+  profiles:test
+url: http:sina.com

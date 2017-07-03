@@ -18,5 +18,5 @@ url: http://baidu.com
 
 ---
 spring:
-  profiles:test
+  profiles: test
 url: http:sina.com

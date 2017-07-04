@@ -14,7 +14,7 @@ uname:
 ---
 spring:
   profiles: localhost
-url: http://www.QQ.com
+url: http://www.baidu.com
 
 ---
 spring:

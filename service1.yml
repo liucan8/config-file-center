@@ -6,4 +6,4 @@ testName: 123
 ---
 spring:
   profiles: localhost
-testName: kkkkk
+testName: lololo

@@ -14,7 +14,7 @@ uname:
 ---
 spring:
   profiles: localhost
-url: http://www.ssssss.com
+url: http://www.aaaaa.com
 
 ---
 spring:

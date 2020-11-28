@@ -7,16 +7,3 @@ spring:
       enabled: true
       charset: UTF-8
       force: true
-      
-uname: 
-  sp: zyd
-  
----
-spring:
-  profiles: localhost
-url: http://www.FFFFF.com
-
----
-spring:
-  profiles: test
-url: http://www.sina.com

@@ -7,5 +7,5 @@ spring:
       enabled: true
       charset: UTF-8
       force: true
-userName:
+testValue:
   lc
